@@ -26,11 +26,11 @@ dat %>%
 
 #6. Code that produces a PDF file containing 6 figures, one for each species that includes a boxplot
 #     of puncture force vs. quadrant:
-pdf("Jaan_Selod_species_quadrant.pdf")
+pdf("Jaan_Selod_Species_Quadrant.pdf")
 for(i in species){
   p <- dat %>%
     filter(species==i)%>%
     ggplot() + geom_boxplot(aes(x=quadrant,y=N))+ggtitle(i)
 }
 dev.off() 
-list.files(pattern=".pdf")
+list.files(pattern =".pdf")
