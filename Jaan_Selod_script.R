@@ -1,4 +1,4 @@
-### MODULE 1 PROJECT | Jaan Selod Final ###
+### MODULE 1 PROJECT | Jaan Selod ###
 
 library(ggplot2) #for plotting
 library(tidyverse) #for data analysis
